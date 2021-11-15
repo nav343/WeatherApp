@@ -28,6 +28,7 @@ const GraphTxt = () => (
       justifyContent: "space-between",
       marginBottom: 30,
       paddingHorizontal: 10,
+      marginTop: 20,
     }}
   >
     {graphData.map((data, index) => (
