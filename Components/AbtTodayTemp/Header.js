@@ -27,7 +27,7 @@ export default function Header({ navigation }) {
       </View>
 
       <TouchableOpacity
-        onPress={() => navigation.push("AbtTodayTemp")}
+        onPress={() => navigation.goBack()}
         style={{
           backgroundColor: "#71c8df",
           borderBottomLeftRadius: 20,
@@ -43,7 +43,7 @@ export default function Header({ navigation }) {
       >
         <Image
           source={{
-            uri: "https://img.icons8.com/ios-filled/50/ffffff/long-arrow-right.png",
+            uri: "https://img.icons8.com/ios-filled/50/ffffff/long-arrow-left.png",
           }}
           style={{
             width: 30,
